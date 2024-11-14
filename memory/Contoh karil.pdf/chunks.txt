@@ -1,0 +1,701 @@
+◼    449 
+Jutisi: Jurnal Ilm iah Teknik Informatika dan Sistem Informasi  
+Jl. Ahmad Yani, K.M. 33,5 - Kampu s STMIK  Banjarbaru  
+Lokta bat – Banjarbaru (Tlp. 0511 4782881 ), e-mail: puslit.stmikbjb@g mail.com  
+e-ISSN: 2685 -0893  
+p-ISSN: 2089 -3787 
+  
+Model Aplikasi Suplemen Bahan Ajar Cetak Sistem Informasi Manajemen Berbasis Augmented 
+Reality (Dyah Paminta Rahayu ) Model Aplikasi Suplemen Bahan Ajar Cetak Sistem 
+Informasi Manajemen Berbasis Augmented Reality   
+Dyah Paminta Rahayu1, Andri Suryadi2* 
+1,2Sistem Informasi, Universitas Terbuka  
+1Jalan Cabe Raya, Pondok Cabe, Pamulang, Tangerang Selatan 15437 , Banten – Indone sia, 
+Hallo -UT 1500024    
+*Email Corresponding Author: andri.suryadi@ecampus.ut.ac.id  
+ 
+Abstrak  
+Salah satu tantangan dalam dunia pendidikan adalah penerapan inovasi teknologi yang 
+semakin hari sem akin maju. Salah satu co ntohnya adalah penerapan keterbaruan bahan ajar 
+cetak sistem informasi manajemen menggunakan augmented reality  di Universitas Terbuka. 
+Bahan ajar cetak sistem informasi manajemen tersebut membutuhkan suplemen tambahan 
+dengan augment ed reality  karena banyak  sekali gambar yang membutuhkan penjelasan lebih 
+terperinci . Dengan adanya suplemen berbasis augment ed reality  diharapkan lebih dapat 
+berguna terhadap pembaca bahan ajar cetak tersebut.  Penelitian ini melakukan pen ambahan 
+suplemen augment ed reality  pada ba han ajar cetak sistem informasi manajemen menggunakan
+model waterfall . Hal ini bertujuan untuk memberikan penjelasan materi ya ng tida k tertulis pada 
+bahan ajar cetak tersebut dan memberikan informasi yang l ebih b erguna dibandingka n bahan 
+ajar cetak lainnya. Hasil penelitian menunjukan bahwa aplikasi berjalan dengan baik dan siap 
+digunakan  oleh pengguna. Hal tersebut dapat dilihat dari pengujian fungsional dan non 
+fungsiona l yang telah dilakukan. Dari penguji an fungsional aplikasi d apat berjalan pada 
+perangkat yang memiliki kamera lebih dari 3MP sedangkan dari pengujian non fungsional 
+aplikasi mendapat kan skor 80 ,125 artinya aplikasi dapat diterima dan berguna kepada 
+penggun a. 
+Kata kunci : Bahan ajar cetak, Sistem Informasi Manajemen, Augmented Reality  
+ 
+Abstract  
+One of the chal lenges in the world of education is the application of increasingly advanced 
+technological innovations. One example is the application of the updated printed management 
+information system usi ng augmented reality at the Open Universi ty. The p rinted teaching  
+materials for the management information system require additional supplementation with 
+augmented reality because there are so many images that require more detailed explanations. 
+With the a ugmented reality -based supplement, it is hoped tha t it will be mo re useful to the 
+readers of the printed teaching materials. This study adds augmented reality supplements to 
+printed teaching materials for management information systems using the waterfall model. It
+aims to provide an explanation of the ma terial that is not written in the printed teaching materials 
+and provide more useful information than other printed teaching materials. The results show that 
+the application runs well and is ready to be use d by the user. This can be seen from the 
+functiona l and non -funct ional tests that have been carried out. From functional testing the 
+application can run on devices that have a camera of more than 3MP while from non -functional 
+testing the application gets a  score of 80.125, meaning that the applic ation is acceptable and 
+useful to users. . 
+Keywords: Printed  teaching materials, Managem ent Information Systems, Augmented Reality  
+ 
+1. Pendahulu an 
+Kemajuan teknologi informasi pada saat ini dirasakan sangat pesat. Hal tersebut didorong 
+dengan adanya revolusi industri 4 .0 yang dapat memberikan tantangan tersendiri kepada 
+seluruh umat manu sia. Revolusi industri 4.0 mengubah segala hal dalam k ehidupa n manusia 
+menjadi tanpa ada batasannya karena didukung oleh perkembangan teknologi dan jaringan 
+internet sebagai tulang pungg ung antara manusia dan mesin [1]. Beberapa  manfaat dari 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 450 
+revolusi industri 4.0 berpengaru h kepada sektor produksi , layanan kepada pelanggan dan 
+peningkatan pendapatan  [2]. Sedangkan tantangan yang akan dihadapi adalah perlu adan ya
+kreasi dan inovasi dalam menghadap i era industri 4.0 ini [3].   
+Salah satu tantangan terbesar dalam menghadapi industri 4.0 adalah pembang unan 
+sumber  daya manusia [4]. Berbicara tentang pembangunan sumber daya manusia maka tidak 
+terlepas dari sektor Pendid ikan, bahkan sektor ini menj adi sektor yang paling dominan dalam 
+mencerdaskan kehidupan bangsa d emi menjawab tantangan di era revolusi industri 4.0  
+tersebut [5]. Untuk dapat menjawab tantangan terseb ut, harus ada proses pembelajaran yang 
+kreatif  dan inovatif dalam meng hasilkan peserta didik [6]. Proses pembelajaran yang kreatif  dan 
+inovatif salah satunya adalah memakai alat bantu (media) dalam pembelajaran yang mudah 
+digunakan oleh peserta didik [7]. 
+Di era revolusi industri 4.0 ini terdapat 9 keterbaruan terkait d engan pendidikan  
+diantaranya belajar pada waktu dan  tempat yang berbeda, pembel ajaran indi vidual, siswa dapat 
+menentukan pili han bagaimana belajar, p embe lajaran berbasis proyek, pengalaman lapangan, 
+interpretasi data, penilaian beragam, keterlibatan siswa  dan mentoring [8]. Dalam menghadapi  
+era industri 4.0 ini pendidikan tinggi harus mampu men erapkan keterbaruan yang telah 
+disebutkan. Salah satu Pendidikan Tingg i yang sudah menerapkan pembelajaran dalam 
+menghadapi era revolusi industri 4.0  adalah Universitas Terbuka. Prinsip yang digunakan oleh 
+Universitas Terbuka adalah belajar mandiri yang di sertai dengan bahan ajar cetak. Namun
+bahan aj ar cetak tersebut membut uhka n suplemen  penjelasan tambahan dalam bentuk 
+teknologi lain  salah satunya dengan augmented realit y. Dengan adanya augmented real ity 
+diharap kan dapat berguna ke pada  pembaca bahan ajar cetak terseb ut. 
+Berdasarkan hasil penelitian oleh Sholeh  dkk, bahwa b ahan ajar cetak diera revolusi 
+indus tri 4.0 ini harus m empunyai nilai lebih yaitu dengan d itambahkannya sentuhan tekn ologi 
+salah satunya menggunakan augmented re ality [9]. Augment ed reality dapat menggabungkan 
+dunia maya denga n dunia nyata dengan ben tuk dua dimensi dan tiga dimensi [10].  Teknologi 
+ini merupakan teknologi terbaru ya ng ada pada era industri  4.0 yang dapa t membantu di  dalam 
+dunia pendidikan [11].  
+Di Universitas Terbuka terdapat banyak bahan ajar cetak yang perlu dikembangkan 
+menggunakan teknologi s alah satu baha n ajar cetak tersebut yaitu bahan ajar cetak sistem 
+informasi manajemen . Bahan ajar cetak sistem inform asi manajemen  akan dikembangkan 
+menggunakan suplemen augmented reality karena banyak sekali gambar yang membutuhkan 
+penjelasan lebih terperinci. Tujuanny a yaitu memberikan pen jelasan materi yang tid ak tertulis 
+pada bahan aja r cetak tersebut dan dapat lebih berguna terhadap pembaca  [12]. Pene litian ini 
+melakukan p enambahan suplemen kepada  bahan ajar cetak sistem  informasi manajemen  di 
+Universi tas Terbuka dengan teknologi augmented reality  menggunakan model waterfall  [13].
+Deng an adanya penambahan teknologi tersebut , pembac a dapa t melakukan  scan  
+mengg unakan handphone  kemudian aka n tampil penjelasan pada layar handphone. Dengan 
+adanya aplikasi suplemen bahan ajar cetak sistem informasi manajemen  berbasis augmente d 
+reality,  dihara pkan menjadi salah satu inovasi yang berkembang  saat ini. 
+ 
+2. Tinjauan Pust aka  
+Augmented Reality  
+Augmented  reality  adalah  sebuah teknolo gi yang  menggabungkan benda maya dua 
+dimensi atau tiga dimensi ke dalam sebuah lingkungan dunia nyata  [14]. Augmente d reality 
+adalah sebuah tekn ologi yang menggabungkan b enda maya dua dimensi atau tiga dimensi  ke 
+dalam sebuah lingkungan dunia nyata  [14]. Terdapat tiga karakteristik augmented reality  yang 
+pertama dapat menyatukan dunia nyata dan dunia maya, yang kedua membuat  aplikasi yang 
+interaktif lang sung dengan penggunanya dan terakhir mampu menampilkan objek dalam bentuk 
+tiga di mensi  [11]. Dengan teknologi augmented reality  benda nyata dapat d itampilkan secara 
+maya dan berinterk asi langsun g dengan penggunany a. Oleh  karena itu teknologi augmented 
+reality  ini sangat berguna pada kehidupan manusia  diberbagai bidang khususnya dibidang 
+pendidikan.  
+Cara kerja dari augmented reality  adalah dengan cara  marker based tracking  yaitu 
+gambar d ijadikan marker kemudian digun akan sebuah handphone  untuk menangkap marker   
+[15]. Dari marker tersebut akan muncul sebuah objek tiga dimensi yan g telah dibuat ke  dalam
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 451 
+aplikasi sebelumnya [16]. Deng an cara seperti itu maka objek nyata dapat dibuatkan menjadi 
+benda maya dan dapat dijadikan sebuah simu lasi dalam pembelajaran.  
+Pada saat in i, augm ented reality  banyak d ipakai untuk menya jikan seb uah materi 
+pembelajaran dibidang pendidikan [17], bidang permainan ( game ) [18], bidang industr i 
+pemasaran [19] dan masih banyak lagi. Di bida ng pendidikan perkemba ngan  augmented reality 
+digunakan untuk meningkatkan pembelajaran . Hal tersebut dil akukan u ntuk memberikan 
+pemahaman  yang lebih mudah dimengerti  oleh peserta didik . Di Universi tas Terbuka,  terdapat 
+salah satu bahan a jar cetak sistem  informasi manajemen  di mana banyak sekali gambar yang 
+belum di jelaskan secara terperinci se hingga mahasisw a kesulitan dalam memaha mi bahan ajar 
+cetak ter sebut. Dengan demikian, perlu dikembangkan model baru dala m pembelaj aran bahan 
+ajar cetak tersebut yaitu menggunakan augmented reality. 
+Pemanfaatan Augmented Reality   
+Bebera pa pemanfaatan augmented reality  misalnya da lam dunia pendidikan yaitu 
+sebagai m edia pembe lajaran  yang dikembangkan oleh Feby Z ulham Adami  dkk yaitu memb uat 
+sebuah media pembelajaran system  pence rnaah . Dalam penelitian tersebut dij elaskan bahwa
+sebuah gambar / marker system  pencernaan dapat disajikan dengan menggunakan augmented 
+reality. Hasil yang didapatkan dari penelitian tereb ut adalah dengan augme nted reality  dapat 
+mem permudah mempelajari sistem -sistem pencernaa n dan dapat mena rik pengguna dalam 
+mempelajari system  pencer naan diband ingkan hanya dalam bentuk gambar  [15]. 
+Kemudian pada pen elitian yang di kembangkan oleh Aprian Karisman  dkk yaitu 
+pembuatan aplikasi augmented reality pada perangkat kera s komputer . Dalam penelitian 
+tersebut dijelaska n bahwa  augmen ted real ity membantu dalam proses pembelajaran perangkat 
+keras, perakitan , trouble shooting , dan penggunaan sistem  operasi.  Hasil yan g didapatkan dari 
+penelitian tersebut adalah 90% respon den men dapatkan informa si dari materi yang telah 
+disajikan menggunakan augme nted reality  [15].  
+Selanjutnya pemanfaatan augmen ted reality juga d apat dikolaborasikan bidang 
+kesehatan dan pendidika n seperti yang telah dikembangkan oleh Hidayat  pada penelitiannya . 
+Pada penelitian tersebu t membuat sebuah aplikasi augmente d reality terkait  dengan kesehatan 
+gigi pada anak. Augmen ted reality dapat menyajikan sebuah gambar gigi  menjadi lebih menarik  
+untuk edukasi anak  sehingga anak menjadi lebih antus ias dalam menyerap materi yang 
+disajikan  [20].  
+Selain di bid ang pendidikan, augmented reality juga dap at dikembangkan pada bidang 
+lainnya seperti pada pene litian Maramis  dkk. Pada pen elitian tersebut membuat sebuah
+simulasi gedu ng fakultas Teknik  untuk diperk enalkan sebuah kegiatan menggunakan 
+augmented r eality . Simulasi gedun g fakultas teknik  tersebut dapat memberikan gambaran 
+kepada peng guna tanpa harus datang  ke gedung fak ultas Teknik  tersebut [21]. 
+  
+Metode Pengembangan Perangkat Lunak Waterfall  
+Dalam pengembangan bahan ajar cetak berb asis augmented reality ini mengguna kan 
+model waterfall . Model waterfa ll adalah proses pengembangan perangkat lunak tradisional yang 
+umum digunakan dalam proyek -proyek perangkat lunak yang paling pembangunan  [22]. Ini 
+adalah model sekuensial, sehingga pen yelesaian satu set kegiatan menyebabkan dimulainya 
+aktivitas berikutnya. Berikut gambar model waterf all menurut Pressman  [13]: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 3. Metode  Waterfall  Perancangan / 
+Analisis Sistem  
+Desain Sistem  
+Implementasi  
+Pengujian  
+Pemelihar aan 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 452 
+Tahap pertama da lam pengembangan perangakat lunak metode waterfall ini adalah 
+perancangan  atau anali sis sistem. Pada tahap  ini akan dilakukan pencarian informasi terkait 
+dengan sistem yang akan dibuat. Pencarian infor masi tersebut meliputi layanan, tujuan, ruang 
+lingkup d an pengguna kemudian akan diterjemahk an secara rinci sehingga menghasilkan 
+sebuah sp esifikasi sistem  [23]. Spesifikasi sistem ini akan dipakai sebagai acuan ketaha p 
+selanjutnya yaitu desain sistem.
+Setelah tahapan analisis sistem se lesai dan menghasilkan spesi fikasi sistem, maka 
+selanjutnya adalah tahap desai n sistem. Pada tahapan ini akan dilakukan desain sistem berupa 
+perancangan Unified Modeling Language  (UML) , struktur data, procedure  program  dan tampilan 
+program [24]. Hasil dari desain sistem ini akan dijadikan rujuk an untuk tahap selanju tnya yaitu 
+implementasi atau pengkodean.  
+Tahap implementasi ini merupakan pembuatan aplikasi menggunakan bahasa 
+pemograman yang telah ditentu kan sesuai dari hasil analisis pada ta hap perta ma. Acuan pada 
+tahap i mple mentasi ini adalah h asil dari tahap sebelu mnya yaitu tahap desain [25]. Hasil dari 
+tahap implementasi ini  berupa apli kasi yan g telah selesai dibuat  dan akan dilakukan pengujian 
+aplikasi pada tahap berikutnya.   
+Tahap selanjutnya adalah tahap pengujian aplikasi hasil dari tahap sebelumnya. Dalam 
+pengujian aplikasi  ini akan diuji efekt ifitas sehingga akan diketahui kekurang an atau 
+kelemahannya [26]. Pengujian dilakukan dengan menggunakan black box testing . Pengujian 
+blax box ini merupakan pengujian yang membuat skenario kasus   uji coba  berdasarkan fungsi 
+dari aplikasi [27]. 
+Tahap terakhir adalah ta hap pemeliharaan. Tahap pemeliharaan ini merupakan tahap 
+menjalankan dan dilakukan pemelih araan terhadap aplikasi. Dalam pemelihar aan ini juga 
+dilakukan deteksi terhadap kesalahan yang ti dak ditemukan pada tahap sebelumnya [26]. 
+ 
+3. Metodologi
+Tahapa n pe nelitian dalam pengembangan suplemen bahan ajar  cetak  berbasis augmented 
+reality  di Universitas T erbuka ini dap at dilihat pada gambar 4 sebagai berikut:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 4. Tahapan Penelitian  
+ 
+Tahapan pen elitian yang telah diga mbar kan di atas,  dapat jelaskan sebagai berikut:  
+1. Studi Liter atur 
+Tahap pertama dalam penelitian ini adalah studi  literature. Dalam studi literatur ini terdapat 
+dua tahapan yaitu tentang studi ten tang augmented reality  dan bahan ajar cetak di 
+Universitas te rbuka [28]. Mulai  
+ 
+a. Augmented Reality  
+b. Bahan Ajar cet ak 
+ Studi Literatur   
+ 
+Perangkat Lunak Model Waterfall  
+Pengu jian Desain Sistem  Perancangan 
+/Analisis 
+Sistem  
+Pemeliharaan  Implementasi  
+Baha n ajar cetak  
+sistem informasi 
+manajemen  berbasis 
+augmented reality  Selesai  
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 453 
+2. Perangkat Lunak Model  Waterfall  
+a) Perancangan / Analisis Sistem  
+b) Peranc angan atau analisis sistem merupakan langkah pertama da lam model  waterfall  
+[13]. Tahapan ini b erupa pengumpulan informasi terkait bahan ajar cetak, t ujuan, ruang 
+lingku p dan solusi yang akan dibuat. Sebag ai contoh bahan ajar cetak sistem infor masi 
+manajemen  yang didalamnya terdapat 9 modul. Dari 9 mo dul tersebut dipilih satu
+modul yaitu modul 1 yan g akan dijadikan materi  dalam pembuatan  aplikas i ini. S etelah 
+terpilih  modul 1 selanjutnya dipilih kembali sat u halaman sebagai marker  aplikasi. 
+Mark er tersebut nantinya berfungsi sebagai trigger  yang ditang kap oleh kamera 
+handphone  yang nantinya suplemen yang telah dibuatkan akan tampil dalam layar 
+handphone  tersebut. Selai n itu dalam tahapan ini akan dianalisis terkait kebutuhan 
+fungsional dari aplik asi seperti fungsi dari tombol, fungsi dari tampilan layar , handphone  
+yang akan digunakan dan sebagainya.  
+c) Desain Sistem  
+d) Pada tahapan ini akan membuat sebu ah desai n dari sistem m engg unakan pemodelan 
+berbasis objek. Pem odelan yang dilakukan menggunakan UML ( Unified Modeling 
+Language ) yang terdiri dari use case diag ram menggambarkan sejumlah aktor yang 
+terlibat, class diagram  menggambarkan struktur statik kela s dalam sistem, state 
+diagram menggambarkan semua kondisi oleh kelas , activity diagra m menggambarkan 
+aktivitas kelas dan ditambahkan dengan desain dari tampilan  aplikasi pada layar 
+handphone . 
+e) Implementasi  
+Taha pan berikutnya adalah implementasi atau koding.  Awal da ri tahapan ini adalah 
+pembuatan aplikasi suplemen bahan  ajar cetak. Kemudian selanjutnya pembuatan 
+marker dari bahan ajar cetak sistem informasi manajem en. Setelah marker selesai 
+dibuat kemudian akan d isimpan kedalam vuforia. Vuforia digunakan untu k memasu kan
+objek marke r kedalam database secara online yang na ntinya akan dipanggil ke  dalam 
+unity. Sedangkan unity adalah sebuah aplikasi yang akan menggabung kan marker 
+dengan objek 3D.  
+f) Pengujian  
+Dalam tahap an ini aplikasi akan diuji menggunakan pengujia n blackb ox [29]. Dalam 
+pengujian blackbox  ini akan diuji dari segi fungsi aplikasi tersebut. Seb agai cont oh 
+salah satu prosedur pengujian  yaitu ketika kamera diarahkan ke marker  maka objek 3D 
+akan muncul begitupun seterusnya. Kemudian berdasarkan prosedur yang telah 
+ditentukan aplikasi akan diuji  coba pada beberapa tipe handphone  sehingga hasil dari 
+pengujian  ini bena r-benar menghasilkan ap likasi yang handal.   
+g) Pemeliharaan  
+Tahapan terakhir adalah pemeliharaan. Tahapan pemeliharaan ini merupakan tahapan 
+menjalankan aplikasi sekaligus pengecekan ke mbal i jika ada kekurangan dalam 
+pembuatan aplikasi. Seb agai cont oh adanya  perubahan konten atau ada kesalahan 
+dalam konten kemudian aplikasi tersebut harus di update  secara berkala menyesuaikan 
+konten tersebut.  
+ 
+4. Hasil  dan Pembahasan  
+Hasil dari penelitia n ini akan dijelaskan berd asarkan dari tahapan peneliti an. Tahapan -
+tahapa n penelitian ini adalah  sebagai berikut:  
+ 
+Analisis Sistem  
+ Dalam analisis kebutuhan sistem dibagi menjadi 2 bagian yaitu kebutuhan berdasarkan 
+fungsional dan non fungsional. Kebutuhan fu ngsional yaitu kebut uhan berdasarkan proses -
+proses yang  terjadi pad a sebuah sistem sedangkan keb utuhan non fungsional yaitu kebutuhan 
+dimana sistem itu berjalan. Kebutuhan fungsional dan non fungsional dapat dilihat sebagai 
+berikut:  
+1. Kebutuhan fungsional  
+a. Aplikasi ini mulai dib uka dengan terdiri dari 4 menu yait u: menu mula i, menu 
+pengembang dan menu k eluar. 
+b. Menu mulai berfungsi untuk memulai aplikasi.  
+c. Menu pengembang berisi identitas pengembang aplikasi ini.  
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 454 
+d. Menu petunjuk penggunaan  
+e. Menu keluar yaitu keluar dari aplikasi.  
+f. Pada saat menu mulai diklik aplikasi aka n mulai menc ari marker yang ada pada sebu ah 
+bahan ajar cetak. Kemudian jika marker  tersebut ditemukan aplikasi dapat 
+menampilkan suplemen berupa video bahan ajar cetak tersebut.  
+g. Video yang  dimunculkan sesu ai dengan desain  yang telah dibuat.  
+ 
+2. Kebutuhan non fungsional.  
+a. Aplikasi hanya dapat digunaka n pa da perangkat handphone  dengan sistem operasi 
+android.  
+b. Aplikasi dapat berjalan pada android mulai dari versi 4.4 (Kit Kat) ke atas.  
+c. Sistem menggunakan tools  yang  dapat mendukung  android dan augmented reality.  
+ 
+Desain Sistem  
+ Desain sistem pada penelitian ini menggunakan UML ( Unified Modeling Language ) 
+yang digambarkan dalam use case, activity diagram , dan perancagan antar muka.  
+ 
+1. Model Fungsional Sis tem 
+ActorMulai Aplikasi
+Pengembang
+KeluarVideo Suplemen Scan Marker
+Identitas«extends» «extends»
+«extends»System AR
+Petunjuk
+ 
+Gambar  5. Usecase  Diagram  
+ 
+Use case  diagram pada Gambar 5  menjel aska n interaksi antara pengguna (aktor) dengan 
+sistem yang dibangun. Beberapa fungsi aktor yang akan dilakukan pada sistem ini adalah use 
+case  mulai aplikasi, p engembang. petunjuk d an keluar . Video suplemen memiliki  relasi extends  
+dengan scan marker artiny a video suplemen tidak akan dapat berjalan jika scan marker tidak 
+dilakukan. Begitupun sama dengan scan marker dengan mulai aplikasi. Scan mar ker tidak 
+dapat di lakukan jika tidak di lakukan m ulai aplikasi.  
+ 
+2. Model Proses Sistem  
+Activ ity diagram  menggambarka n alur kerja dari sebuah sistem. Pada sistem yang dibuat ini 
+dapat dilihat pada gambar 6 di bawah ini. Pada gambar tersebut  dapat dilihat alur kerja mulai 
+dari inisiasi aw al dan mem ulai aplikasi pada bagian user. Ke mudian masuk keda lam sistem 
+untuk melakuk an p emilihan menu mulai aplikasi, pengembang dan keluar. Jika user memilih 
+menu mulai aplikasi maka akan dilajutkan dengan mencari marker. Selanjutnya kamera ak an 
+bersiap menangkap marker dan jika ditemukan marker a kan ditampilkan berupa materi video 
+suple men.  Jika user memilih pengembang maka akan muncul data pengembang  aplikasi dan 
+petunjuk penggunaan. Jika user memilik petu njuk maka akan muncul petunjuk penggu naan 
+aplika si dan jik a user memilih keluar maka akan ke luar dari aplikasi. Berikut gambar dari 
+diagram activity AR :
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 455 
+User System
+Memulai Aplikasi Pilih Menu
+Pencarian Marker
+Menampilkan Video suplement
+Menampilkan Petunjuk
+PengembangMulai Aplikasi
+Petunjuk
+Pengembang
+KeluarYATIDAK
+PENCARIAN 
+MARKER
+ 
+Gambar 6. Activi ty Diagram  
+ 
+3. Model  Antar Muka  
+Tahapan terka hir pada desain adalah perancangan antar muk a. Pa da perancangan a ntar muka 
+ini akan dibuat dalam be ntuk sketsa / morkup . Tools  yang digunaka n pada perancangan antar 
+muka ini menggunakan balsamiq versi 3.5.1 7. berikut perancangan antar muka yang telah 
+dibua t: 
+ 
+Gambar 7. Antar Muka Aplikasi  
+ 
+Pada gam bar 7, merupakan tamp ilan aplikasi pada layar handphone  android. Dalam layar 
+tersebut terlihat s ebua h icon aplikasi yang siap digunakan oleh user dengan nama supl emen 
+UT. Selanjutnya tampilan menu aplikasi sete lah icon diklik pada android adalah sebagai be rikut: 
+ 
+Gambar 8. Tampilan Menu Aplikasi  
+ 
+Pada menu ap likasi terdapat 4 menu yang akan digunaka n oleh user yaitu mulai app, petunjuk, 
+pengembang dan keluar. Pada mulai aplikasi maka user akan memulai aplikasi  dan siap 
+mencari marker  pada bahan ajar. Tampi lan p encarian marker  dapat dilihat pada con toh gambar 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 456
+selanjutnya. Kemudian menu petunjuk berisi  petunjuk penggunaan aplikasi, menu pengembang 
+merupakan identitas pengembang aplikasi dan menu keluar keluar dar i aplikasi.  
+ 
+ 
+Gambar 9. Proses Pencarian Marke r 
+ 
+Setelah user mene kan tombol memulai apli kasi maka selanjutnya akan memulai mencari 
+marker  pada bahan ajar. Contoh tampilan pada gambar 9 adalah tampilan dalam pencarian 
+marker . Jika marker ditemukan mak a akan ditampilkan suplemen video yang telah dibu at. 
+Proses pencarian marker dapat digambarkan menggunak an flowchart di  bawah ini:  
+ 
+Gambar 10. Flowchart Proses Pencarian Marker  
+ 
+Pada gambar 10 p roses pencarian marker, pengguna membuka aplikasi dan mela kukan klik 
+mulai a pp. Selanjutnya akan dilakukan pros es pencarian mar ker. J ika marker ketemu, maka 
+akan mena mpilkan object namun jika tidak ke temu ma ka p roses pencarian akan terus  
+dilakukan. Begitu seter usnya.  
+ 
+ Implementasi  
+ Tahap  berikutnya adalah tah apan implementasi. Tahapan implementasi ini merupakan 
+tahapan konversi dari desain yang telah dibuat menjadi sebuah aplikasi menggunakan tools  
+bahasa pemo graman. Konten suplemen dan marker yang telah dibuat akan dimasukan ke  
+dalam aplikasi berbasis augment ed reality . Gambar  11 adalah pencarian marker y ang dilakukan 
+oleh aplikasi ketika sudah menekan tombol m ulai maka akan mencari marker pada bahan ajar 
+materi sistem informasi manajemen  dalam hal ini menggunakan bahan ajar cetak pengantar
+system inf ormasi . Berikut tampilan pencarian marker:  
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 457 
+ 
+ 
+Gambar 11. Tampilan Antarmuka Pencari an Marker  
+ 
+ Pada gambar 11 merupakan tampilan pencar ian marker layar handphone  akan mencari 
+di mana marker berada. Jika marker ditemukan  maka  akan muncul materi suplemen yang telah 
+disediakan , namun jika marker b elum ketemu maka layar handphone akan terus mencari 
+sampai ditemukan. Pada layar pencarian marke r juga disediakan menu kembali jika pengguna 
+ingin kembali pada menu utama sebelumny a. 
+ 
+ 
+Gambar 12. Tampilan Antarmuka Penemuan Marker  
+ 
+ Setelah proses  implementasi atau pembatan  aplikasi selesai, selanjutn ya adalah 
+tahapan pengujian. Tahapan peng ujian akan dibahas pada poin berikutnya untuk menguji 
+apakah aplikas i yang telah dibua t dapat berjalan pada berbagai tipe handphone android.  
+ 
+Pengu jian 
+ Dalam tahap pengujian akan dilakukan pengujian secara fungsiona dan non  fungsional. 
+Dari sisi fungsional pengujian akan menggunakan metode blackbox testing  yaitu pengujian 
+melihat dari sisi fungsional dengan meli hat input dan output saja tanpa meli hat kode program . 
+Dari sisi non fungsional pengujian di lakuk an dilakukan dengan menggunakan meto de P SSUQ 
+(Post-Study System Usability Questionnaire ) di man a penguji an menggunakan instrumen
+kuesioner  untuk menilai usabili ty melalui empat kategori penilaian,  yaitu kategori overall, system 
+usefulness, information  quality, dan interface quality  [30].  
+ 
+1) Pengujian fungsional  
+ Pada tahapan pengujia n ini, aplikasi ak an diujicobakan menggunakan 10 handphon e 
+android yang be rbeda -beda. Hal tersebut guna membuktikan bahwa aplikasi yang telah dibuat 
+berja lan se suai dengan yang diing inkan. skenario pengujia n yaitu install  aplikasi (APK) pada 
+handphone android, membuka aplik asi, menekan tomb ol mulai dan mencari ma rker, mencoba 
+mencari marker 1, mencoba m encari marker 2, menekan tombol peneliti, menekan tombo l 
+petunjuk, menekan tombol k eluar. Skenario  tersebut  akan menghasilkan seberapa jauh aplikasi 
+tersebut dapat digunakan p ada 10 handphone android. Untuk mengetah ui lebih jauh be rikut 
+hasil pengujian yan g telah dilakukan kepada 10 handphone android.  
+ 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 458 
+ 
+Gamb ar 13. Hasil Pengujian pad a Perangkat Lunak  
+ 
+Dari hasil pengujian yang telah dilakukan pada 10 perangkat android sep erti yang dapat dilihat 
+pada gambar 13, hasil peng ujian dapat dilihat pada tabel 1 berikut ini:  
+ 
+Tabel 1 Hasil Pengujian  
+No Perangkat Androi d Keterangan  
+1 Oppo F7  Berjalan dengan baik  
+2 Oppo  A5 2020  Berjalan dengan baik  
+3 Infinix Hotplay 9  Berjalan dengan baik  
+4 Oppo A3S  Berjalan dengan baik
+5 Samsung G alaxy Tab 2.0 P3100  Tidak be rjalan dengan baik  
+6 Alldocube m5x  Berjalan dengan baik  
+7 Asus Zenfone 4 max pro  Berjalan dengan baik  
+8 Sams ung A30  Berjalan dengan baik  
+9 Asus Zenfone max pro M1  Berjalan dengan baik  
+10 Asus Zenfone Max M2  Berjalan dengan baik 
+ 
+Aplikasi dapat berjal an dengan baik kecuali pada Samsung Galaxy Tab 2.0 P3100 de ngan 
+spesifikasi Camera 3 MP , Memory RAM 1GB , da n Android Android 4.0.3 (Ice Cream 
+Sandwich). Namun pada Samsung  Galaxy Tab 2.0 P3100 tersebut aplikasi m asih dapat di -
+install hanya saja Augmented R eality tidak dapat berjalan.  
+ 
+Pengujian non fungsional  
+ Pada peng ujian non fungsion al di lakukan menggunakan  angket kuesioner  dengan 
+metode  SUS (System Usability Scale )[31] . Angket tersebut diberikan kepada steakholder  yaitu 
+mahasiswa  sejumlah 20 mahasiswa . Adapun anget tersebut adalah sebagai berikut:  
+ 
+Tabel 2. Kuesioner SUS  
+No. Pertanyaan  Jawaban  
+STS TS R S SS 
+P1 Saya sering  menggunakan aplikasi Suplemen BAC UT       
+P2 Menurut saya, aplikasi  Suplemen BAC UT terlalu 
+rumit/kompleks       
+P3 Menurut saya, aplikasi  Suplemen BAC UT mudah digunakan       
+P4 Saya membutuhkan bantuan orang yang ahli/men gerti 
+bagaimana menggunakan aplikasi  Suplemen BAC UT      
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 459 
+No. Pertanyaan  Jawaban  
+STS TS R S SS
+P5 Menurut  saya, fitur/menu pada aplikasi  Suplemen BAC UT 
+saling berhubungan satu dengan  yang lain       
+P6 Saya menemukan banyak sekali fitur/menu yang tidak 
+konsisten       
+P7 Menurut saya, ora ng awan akan mudah mempelaja ri dan 
+menggunakan aplikasi aplikasi  Supl emen BAC UT       
+P8 Menurut saya, aplikasi  Suplemen BAC UT terlalu sulit 
+digunakan       
+P9 Saya merasa nyaman menggunakan aplikasi  Suplemen BAC 
+UT      
+P10 Saya harus mempelajari ba nyak hal sebelum menggunakan  
+aplikasi  Suplemen BAC UT       
+SS : Sang at setuju  
+S : Setuju  
+R : Ragu 
+TS : Tidak S etuju  
+STS : Sangat Tidak Setuju  
+ 
+Rumu s untuk menghitung sko r SUS adalah sebagai berikut:   
+SUS Skor = ((P1–1) + (5 – P2) + (P3 –1) + (5 – P4) + (P5–1) + (5 – P6) + (P7 –1) + (5  – P8) + 
+(P9–1) + (5 -P10))  * 2.5)  
+Dari ru mus tersebut dilakukan perhitungan sehingga menghasilkan tabel berikut i ni: 
+Tabel 3. Hasil kuesioner  
+Responden  P1 P2 P3 P4 P5 P6 P7 P8 P9 P10 Skor  
+1 3 2 5 3 5 2 5 2 5 2 80 
+2 4 2 5 3 5 2 5 2 5 1 85 
+3 3 1 5 2 5 2 5 3 5 2 82.5  
+4 3 1 5 3 5 2 4 1 4 3 77.5  
+5 4 3 5 2 5 1 5 2 5 1 87.5  
+6 4 2 5 3 5 2 3 2 5 3 75 
+7 3 2 5 3 4 2 5 1 4 1 80 
+8 3 2 5 2 5 2 5 3 5 4 75 
+9 3 1 5 2 5 3 5 2 5 1 85 
+10 3 3 5 3 5 1 4 3 5 3 72.5  
+11 4 3 4 3 5 2 5 2 5 1 80 
+12 3 1 5 2 5 1 5 3 4 2 82.5 
+13 3 1 5 3 5 2 4 2 5 1 82.5  
+14 3 2 5 2 5 2 5 2 5 2 82.5  
+15 4 3 5 3 5 2 4 3 5 2 75 
+16 3 2 4 3 5 3 5 2 4 1 75 
+17 3 3 5 2 4 2 5 2 5 3 75 
+18 4 3 5 4 5 2 5 2 5 1 80 
+19 3 2 5 3 5 1 5 1 5 2 85
+20 4 2 5 2 5 2 5 2 5 2 85 
+                     80,125 
+ 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 460 
+Dari tabel hasil ku esioner di atas, didapatka n skor  SUS yaitu 80,125 . Dari nilai tersebut 
+dilakukan mapping ke  skala SUS [32] sehinggal menghasilkan posisi sebagai berikut:  
+ 
+skala  10 20 30 40 50 60 70 80 90 100 
+                      
+keterangan  Not Acceptable  Margin low  Margin high  Accep table  
+ 
+Not accept able = Aplikasi tid ak diterima  
+Margin low  = Aplikasi menempati margin rendah  
+Margi n high = Aplikas i menempati margin tingg i 
+Acceptable = Aplikasi diterima  
+ 
+Dengan skor 80 ,125 maka  aplikasi  ini dapat dikatakan diterima menur ut hasil p engu jian dengan 
+System Usability Scale  (SUS). 
+ 
+Penerapan  dan Pemeliharaan Sistem  
+Pada tahap pene rapan , aplikasi diinstall pada Google Play Store  supaya aplikasi siap 
+unduh dan digunakan. Pada play store aplikasi diberi nama Suplemen BAC UT se suai dengan 
+penelitian yang  dilakukan ini. Untuk lebih jelasnya da pat dilihat pada gambar 14 berikut:  
+ 
+ 
+Gamb ar 14. Gambar Aplikasi suplemen BAC UT pada play store  
+ 
+ Penerapan  dilakukan dengan mengeluarkan versi terbarunya. Jika ada perubahan 
+terkait dengan aplika si atau konten maka aplikasi diplaystore da pat diperbaharui sesuai dengan  
+kebutuhan. Versi awal dari aplikasi ini adalah 1.0. sesuai dengan gambar di  atas.  
+ 
+Pembahasan
+Dari hasil penelitian yang telah dilakukan dapat disimpu lkan bahwa apli kasi suplemen 
+bahan ajar cetak sistem informasi manajemen  berbasis augmented re ality telah berhasil d ibuat 
+dan siap digunakan. Hal tersebut b erdasarkan hasil pengujian yang telah dilakukan yaitu 
+pengujian fungsional dan pengujian non fungsional. Pengujian fungsional menunju kan 
+spesifikasi perangkat handphone supaya aplikasi ini  berjalan dengan baik yaitu harus memiliki 
+kamera lebih dari 3MP ( megapixel ). Hal terseb ut tergambar pada tahap pengujian di mana 
+handphone yang memiliki kamera kurang dari 3MP maka aplikasi tidak dapa t berjalan dengan 
+baik.  Sedangkan berdasarkan pengujian  non fungsional dilakukan penyebaran angket kepada 
+steakholder  mahasiswa dengan jumlah 2 0 orang. Pembuatan angket berdasarkan metode SUS 
+(System Usability Scale ) menghasilkan sk or 80,12 5 artinya ap likasi ini dapat diterima untuk 
+digunakan sebagai suplemen  BAC UT.  
+ 
+ 
+ Skor Aplikasi  
+Suplement BAC UT  
+Jutisi  e-ISSN:  2685 -0893      ◼ 
+Model Aplikasi S uplem en Baha n Ajar Cetak Sistem Infor masi Manajeme n Berbasis Augment ed 
+Reality  (Dyah Paminta Rahayu ) 461 
+5. Kesimpulan  
+Dari hasil penelitian ini dapat disimpulkan ba hwa aplikasi supplemen bahan ajar cetak sistem 
+informasi manajemen be rbasis augmented reality  telah  sangat berguna dan dapat  diterima oleh 
+pengguna yaitu steakh older  mahasiswa. Hal tersebut da pat dibuktikan dari hasil pengujian
+fungsional d an non fungsional. Dengan adanya aplikasi ini diharapkan dapat memberikan ide -
+ide baru terkait den gan penerapan teknol ogi informasi dibidang  pendidikan . 
+ 
+Daftar Refer ensi 
+[1] Subekt, H., Taufiq, M., Susilo, H., Ibrohim, I., & Suwono, H. Mengembangkan literasi 
+informasi melalui belaja r berbasis kehidupan terintegrasi stem untuk menyiapkan calon 
+guru sains dalam menghadapi era revolusi industri 4.0: revieu literatur.  Education and 
+Human Development Journa l, 20218, 3(1): 81-90 
+[2] Prasetyo, H., & Sutopo, W. Industri 4.0: Telaah Klasifikasi a spek dan arah perkembangan 
+riset.  J@ ti Undip: Jurnal Teknik Industr i, 2018, 13(1): 17-26. 
+[3] Ghufron, G. Revolusi Industri 4.0: Tantangan, Peluang, dan solusi bagi dunia pendidikan. 
+In Seminar Nasional dan Diskusi Panel Multidisiplin Hasil Penelitian dan Pen gabdian 
+Kepada Masy arakat 201 8, 1(1): 332-337 
+[4] Ahmad, I. Proses pembelajaran dig ital dalam era revolusi industri 4.0.  Direktur Jenderal 
+Pembelajaran dan Kemahasiswaan. Kemenristek Dikt i, 2018: 1 -13 
+[5] Ningrum, E. Pengembangan sumber daya manusia bidang pendidi kan. Jurnal Geografi 
+Gea, 2016, 9(1): 1-9 
+[6] Maxwell  J.C. “Swinburne and Thackeray ,” Notes Queries , 1974, 21(1): 15, 1974, doi:  
+10.1093/nq/21.1.15 -b. 
+[7] Yuliarty P, Permana T, Pratama A. “Bahan Ajar Media Pembelajaran, ” 2008.  
+[8] Lase, D. Education in the fourth ind ustrial revolution age.  Sundermann Journa l, 2019, 1(1): 
+28-43.
+[9] Sholeh, M., Sura ya, S., & Suraya, I. Pelatihan Pembuatan Bahan Ajar Berbasis Teknologi 
+Informasi Dengan Camtasia Studio Bagi Guru Di Smk Muhammadiyah 2 Muntilan -
+Magelang.  Jurnal Terapan Abdima s, 2018, 3(2): 192-199. 
+[10] Perdamaian, I. G. B. H. Y., Werthi, K. T., & Nirmala, B. P. W. Rancang Bangun Media 
+Interaktif Pengenalan Objek Wisata Tanah Lot Menggunakan Virtual Reality Berbasis 
+Android.  Jutisi: Jurnal Ilmiah Teknik Informatika dan Sistem Informas i, 2019, 8(3): 85-94. 
+[11] Maulana, I., Suryani, N., & Asrowi, A. Augmented Reality: Solus i Pembelajaran IPA di Era 
+Revolusi Industri 4.0.  Proceedings of the ICECR S, 2019, 2(1): 19-26. 
+[12] Universitas Terbuka, Buku Katalog Universitas Ter buka  Kurikulum , 2021st ed. Tanger ang 
+Selatan: Universitas Terbuka, 2021.  
+[13] Pressmann  R.S. Software Quality Enginee ring: A Practitioner ’s Approach , New York: 
+McGraw -Hill, 2010.  
+[14] Billinghurst  M, Clark  A, and Lee G. A survey of augmented reality,  Foun d. Trends Human -
+Computer Interact. , 2014, 8(2): 73–272. 
+[15] Adami, F . Z., & Budihartanti, C. Penerapan Teknologi Augmented Real ity Pada Media 
+Pembelajaran Sistem Pencernaan Berbasis Android.  Jurnal Teknik Kompute r, 2016, 2(1): 
+122-131. 
+[16] Putra, A. P., Widodo, T., & Rochmadi, T. Membangun Media Pembelajara n 7 Keajaiban 
+Dunia Berbasis Augmented Reality Pada Mata Pelajaran Ilmu Pengeta huan Sosial Kelas  
+VI. Indonesian Journal of Business Intelligence (IJUBI ), 2019, 1(2): 60-65.
+[17] Pramono, A., & Setiawan, M. D. Pemanfaatan Augmented Reality Sebagai Media 
+Pembelaj aran Pengenalan Buah -Buahan.  INTENSIF: Jurnal Ilmiah Penelitian Dan 
+Penerapan T eknologi Sistem Informas i, 2019, 3(1): 54-68. 
+[18] Chen, C. H., Ho, C. H., & Lin, J. B. The development of an augmented reality game -based 
+learning environment.  Procedia -Social and B ehavioral Science s, 20215, 174: 216-220. 
+[19] Maulana, G. G. Penerapan Augmented Rea lity Untuk Pemasaran Produk Mengguna kan 
+Software Unity 3D Dan Vuforia.  Jurnal Teknik Mesin Mercu Buan a, 2017, 6(2): 74-78. 
+[20] Hidayat, T. Penerapan Teknologi Augmented Reality Seb agai Model Media Edukasi 
+Kesehatan Gigi Bagi Anak.  Creative Information Technol ogy Journa l, 2014, 2(1): 77-92. 
+[21] Maramis, M. I., Lumenta, A . S., & Sugiarso, B. A. Augmented Reality Pada Aplikasi 
+Android Untuk Memperlih atkan Gedung Fatek.  Jurnal Teknik Elektro dan Kompute r, 2016, 
+5(1): 40-48. 
+         ◼          e-ISSN:   2685 -0893  
+  
+Jutisi: Vol. 10, No. 3,  Desember 2021 : 449-462 462 
+[22] Suryadi, A. Perancangan aplikasi game edukasi men ggunakan model waterfall.  Jurnal 
+Petik, 2017, 3(1): 8-13. 
+[23] Binanto, I. Analisa Metode Classic Life Cycle (Waterfall) Untuk Pengembang an Perangkat 
+Lunak Multimedia. Yogyakarta: Universitas Sanata Dharma , 2018  
+[24] Maulani, G. A. F., Suryadi, A., Nugraha, Y., Hamdani, N. A., & Purwanti, Y. Web-based 
+student master b ook information system in vocational schoo l of Muhammadiyah
+Banyuresmi. In  Journal of Physics: Conference Serie sm, IOP Publishing . 2019, 1280  (3): 
+032040  
+[25] Bunyamin, J. H., Wetan, S., & Pabuaran, P. U. Komparasi Algoritma Naive Bayes Denga n 
+Algoritma Genetik a Pada Analisis Sentimen Pengguna Busway.  Jurnal Teknik 
+Kompute r, 2019, 5(2): 135-138 
+[26] Atmini, S., Budianto, A. E., & Ahsan, M. Analisis dan Pengembangan Sistem Informasi 
+Tracer Study Menggun akan Metode Waterfall Berbasis Web.  Semnas SENASTEK 
+Unikama 201 9, 2: 374 -383 
+[27] Suryadi, A., Ahmad, A., Rahayu, S., Herlina, N., & Yulianti, Y. Pera ncangan Dan 
+Implementasi Sistem Informasi Pemasangan Baru Listrik Berbasis Web Barcode . JURNAL 
+PETI K, 2019, 5(1): 25-30. 
+[28] Universitas  Terbuka, “Katalog Sistem Penyelenggaraan Uni versitas Terbuka 2020/2021 
+Edisi 2”, Tangerang, 2021. 
+[29] Suryadi, A. (2018). Siste m Rekomendasi Penerimaan Mahasiswa Baru Menggunakan 
+Naive Bayes Clas sifier di Institut Pendidikan Indonesia.  Joutic a, 2018, 3(2): 171-182. 
+[30] Hodrien, A., & Fernando, T. P. A revie w of post -study and post -task subjective 
+questionnaires to guide assessment of system usabil ity. Journal of Usability Studie s, 2021, 
+16(3): 203-232. 
+[31] Abiwardani, H., Hanggara, B. T., & Prakoso, B. S. Evaluasi Usability Aplikasi Usaha 
+Laundry Berbasis Web Me nggunakan Metode Us ability Testing (Studi Kasus: Aplikasi 
+Smartlink Bos).  Jurna l Pengembangan Teknologi Informasi dan Ilmu Komputer , 2020, 
+2548: 964X .
+[32] Brooke  J. SUS-A quick and dirty usability scale (in “Usability Evaluation in Industry ”, PW 
+Jordan, B Thom as, I McLelland, B A Weerdmeester (eds) ), 2006, 1.

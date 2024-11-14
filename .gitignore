@@ -1,0 +1,9 @@
+# Virtual environments
+.venv/
+winenvi/
+
+# Compiled Python files
+__pycache__/
+
+# Ignore model files
+*.gguf

@@ -1,0 +1,142 @@
+MANUAL BOOK
+STANDAR OPERASIONAL PROSEDUR (SOP)
+PT HASTARI JAYA SENTOSA
+2023
+  
+BAGIAN 3.1. PENGERTIAN, MAKSUD, DAN TUJUAN
+Divisi PPC merupakan divisi yang bertanggung jawab terhadap perencanaan, pembuatan schedule project, penentuan resource plan dan target produksi, melakukan measurement dalam suatu project dan membuat laporan final project. Maksud dan tujuan dari pembuatan SOP PPC adalah sebagai berikut:
+Memberikan prosedur dan alur koordinasi yang jelas terhadap setiap perencanaan, pelaksanaan hingga tahap penyelesaian atas suatu project
+Memberikan penjelasan mengenai dokumen aygn harus dipersiapkan dalam suatu project serta mekanisma yang perlu dilakukan
+BAGIAN 3.2. RUANG LINGKUP SOP
+	SOP Project Planning and Controlling dibuat dan dilaksanakan dalam lingkup PT. Hastari Jaya Sentosa bagian project planning and controlling. Kami membatasi penggunaan hanya pada perusahaan ini.
+BAGIAN 3.3. REFERENSI
+Penyusunan standart operasional prosedur ini ditentukan standar jasa konstruksi serta peraturan management mutu, keselamatan pekerjaan, dan keamanan lingkungan yang mengacu pada:
+ISO 9001:2015 Klausul 8.5.1
+ISO 14001:2015 Klausul 8.1
+ISO 45001:2018 Klausul 8.1
+SMK3 PP 50 / 2012 Sub Elemen 9.1
+BAGIAN 3.4. ISTILAH DAN DEFINISI
+Berikut beberapa istilah yang di gunakan di Project Planning & Controlling:
+TIM PPC adalah Tim yang berfungsi sebagai Perencana dalam suatu proyek baik itu yang berjalan maupun dalam proses initial project (Planning), Menentukan target harian yang harus dipenuhi agar project dapat berjalan dengan rencana yang telah ditentukan (Production), Mengontrol serta mengevaluasi jalannya suatu project agar dapat terselesaikan sesuai perencanaan dan dapat dilakukan mitigasi resiko apabila terdapat potensi resiko yang dapat mengganggu jalannya suatu project sehingga project dapat terselesaikan sesuai perencanaan dengan efektif dan produktif (Controlling).
+BAGIAN 3.5. PENANGGUNG JAWAB 
+Fungsi tugas dari penerapan prosedur dalam manual book (SOP) Departemen PPC menjadi tanggungjawab dan daily monitoring PPC. Selanjutnya diawasi, dirubah, dan diverifikasi oleh Office Manager dan Project Manager. Terakhir dipertanggungjawabkan kepada Direktur.
+BAGIAN 3.6. URAIAN PROSEDUR PROJECT PLANNING & CONTROLLING
+3.6.1. Prosedur Tetap (Protap) Project Planning & Controlling 
+1. Subdivisi Perencanaan (Planning)
+Divisi Perencanaan bertugas dalam pembuatan schedule dan penentuan resource plan dalam tahapan awal proyek konstruksi. Pada tahap awal proyek, yang dilakukan pertama adalah melakukan tahapan prosedur sebagai berikut:
+Melakukan Site Visit serta melakukan review terhadap kontrak (berkoordinasi dengan Legal) untuk mengetahui scope dan area pekerjaan
+Analisa Field Engineering (dalam melakukan field engineering, Tim PPC berkoordinasi dengan Tim Engineering dalam pembuatan analisa berikut:
+Analisa Ruang Lingkup Pekerjaan 
+Analisa Estimasi Volume Pekerjaan 
+Analisa Kebutuhan Alat 
+Analisa Kebutuhan Material
+Analisa Harga Satuan
+Analisa Resiko
+Program Rencana Pekerjaan 
+Membuat Master Schedule Pekerjaan yang merupakan sebuah program suatu proyek yang dibuat dengan aplikasi Microsoft Project dan Primavera yang berisikan beberapa hal sebagai berikut: 
+Work Breakdown Structure adalah penjabaran mengenai rangkaian hubungan pekerjaan agar berjalan secara sistematis
+Resource Plan adalah hal-hal yang digunakan untuk mendukung suatu pekerjaan agar berjalan sesuai dengan yang direncanakan seperti alat, manpower serta sumber daya lainnya. Dalam perencanaannya Tim PPC berkoordinasi dengan Operational dan Engineering
+Timeline Schedule adalah durasi yang ditentukan dan dihitung berdasarkan susunan Work Breakdown Structure serta Resource yang digunakan.
+Setelah Dokumen Field Engineering, Master Schedule serta Resource Plan yang dibuat sudah selesai, selanjutnya akan diperiksa oleh Manager PPC. 
+Setelah Manager PPC setuju, maka akan dilaporkan ke Project Manager. 
+Project Manager akan berkoordinasi dengan Divisi Finance dalam penyusunan budget proyek.
+Kemudian, Divisi Finance melaporkan ke BOD untuk mendapatkan persetujuan. Apabila disetujui oleh BOD, maka proyek yang direncanakan dapat segera dieksekusi. Apabila tidak disetujui, akan dilakukan review ulang terhadap data teknis yang dibuat mulai dari tahapan awal.
+Gambar. 6. Microsoft Project for Scheduling
+2. Subdivisi Production 
+Berikut adalah prosedur dalam proses produksi (Production) sebagai berikut :
+Membuat RFW (Request For Work) yang diajukan kepada Project Manager dan Direktur untuk tahap awal pekerjaan yang berisikan :
+Jumlah Tenaga Kerja (Operator, Supervisi, Pelaksana, Tenaga Harian, Driver);
+Jumlah Alat ;
+Jumlah Material yang dibutuhkan ; 
+Shopdrawing atau Gambar Kerja dan Data Survey;
+Spesifikasi pekerjaan;
+Material Approval;
+Work Method Statement (WMS) atau Metode Kerja;
+Request For Inspection (RFi) ketika ada tahapan pekerjaan selanjutnyal; 
+Project Quality Plan (PQP) dan ITP (Inspection Quality Plan);
+Lampiran Lain Lain; 
+Gambar. 6. Form Request For Work
+Membuat Daily Work Program (DWP) untuk menentukan target harian pekerjaan beserta jumlah resource yang dibutuhkan termasuk manpower kemudian mendisitribusikan dan meneruskan ke Divisi terkait seperti Operational dan Engineering ;  
+Membuat Weekly Report Program (WRP) untuk menentukan target mingguan pekerjaan beserta jumlah resource yang dibutuhkan termasuk manpower kemudian mendisitribusikan dan meneruskan ke Divisi terkait seperti Operational dan Engineering ;
+Membuat Monthly Report Program (MRP) untuk menentukan target bulanan pekerjaan beserta jumlah resource yang dibutuhkan termasuk manpower kemudian mendisitribusikan dan meneruskan ke Divisi terkait seperti Operational dan Engineering ; 
+Gambar. Kurva S-Produktivitas
+3. Sub Departement Controlling 
+Berikut prosedur untuk sub-departement controlling sebagai berikut:
+Membuat Daily Work Report (DWR) untuk mencatat dan merecord jumlah produktivitas harian suatu pekerjaan serta mengevaluasi terhadap peformance pekerjaan yang kemudian melaporkan kepada Project Manager sebagai bahan evaluasi serta mitigasi risiko agar project dapat berjalan sesuai dengan target penyelesaian ;
+Membuat Weekly Report Progress untuk mencatat dan merecord jumlah produktivitas mingguan suatu pekerjaan serta mengevaluasi terhadap peformance pekerjaan yang kemudian melaporkan kepada Project Manager sebagai bahan evaluasi serta mitigasi risiko agar project dapat berjalan sesuai dengan target penyelesaian ;
+Membuat Monthly Report Progress untuk mencatat dan merecord jumlah produktivitas Bulanan suatu pekerjaan serta mengevaluasi terhadap peformance pekerjaan yang kemudian melaporkan kepada Project Manager sebagai bahan evaluasi serta mitigasi risiko agar project dapat berjalan sesuai dengan target penyelesaian ;
+Membuat Program Update Schedule Mingguan untuk mengevaluasi peformance pekerjaan setiap minggu agar sesuai dengan target penyelesaian dan melaporkan kepada Project Manager ;
+Membuat Risk Management setiap Mingguan dan Bulanan untuk mengantisipasi terhadap resiko yang berpotensi menimbulkan delay suatu pekerjaan dan kerugian bagi project yang kemudian melaporkan kepada Project Manager ;
+Membuat Progress Measurement suatu project untuk mengetahui capaian progres, serta deviasi dari total rencana yang ditargetkan kemudian melaporkan kepada Project Manager untuk bahan pengambilan evaluasi terhadap suatu project ;
+Membuat Berita Acara Serah Terima ketika pekerjaan telah selesai dilakukan ;
+Membuat Laporan Final Project kepada Project Manager yang berisikan mengenai capaian suatu pekerjaan, masalah, serta solusi agar menjadi lesson learn untuk melaksanaan pekerjaan lain agar lebih baik.
+3.6.2. Prosedur Field Engineering
+Field Engineering merupakan bagian terpenting dalam perencanaan dan pelaksanaan pekerjaan agar berjalan secara efektif. Adapun tahapan yang dilakukan adalah sebagai berikut:
+Ketika terdapat informasi mengenai suatu pekerjaan baru atau pekerjaan tahapan maka seorang Project Manager menginformasikan dan berkoordinasi dengan Tim PPC agar dilakukan analisa mengenai pekerjaan tersebut dengan rencana durasi yang ditentukan dalam kontrak.
+Tim PPC melakukan assessment lapangan untuk menganalisa resiko yang akan dihadapi ketika pekerjaan tersebut dilakukan.
+Tim PPC membuat analisa sequence pekerjaan atau yang disebut dengan Work Breakdown Structure untuk setiap item pekerjaan.
+Tim PPC melakukan perhitungan estimasi volume pekerjaan yang akan dikerjakan dan melakukan validasi dan koordinasi dengan Tim Quantity Surveyor.
+Tim PPC setelah mendapatkan volume untuk setiap item pekerjaan, kemudian melakukan perhitungan untuk menentukan jumlah alat yang digunakan, jumlah sumber daya manusia, serta piranti lain yang dibutuhkan untuk mendukung pekerjaan tersebut dengan dasar manajemen resiko, metode serta durasi pekerjaan yang direncanakan.
+Setelah mendapatkan jumlah volume, durasi serta jumlah manpower serta alat yang digunakan maka kemudian dimasukan kedalam program untuk membuat jadwal pelaksanaan suatu proyek pekerjaan.
+Kemudian menyusun dokumen feasibility study atau FS yang berisikan analisa tahapan 1-6 dan diajukan kepada Project Manager untuk dijadikan pertimbangan.
+Project Manager melakukan verifikasi serta analisa terhadap Dokumen Feasibility Study yang diajukan oleh Tim PPC setelah tahapan Field Engineering dilakukan, apabila dokumen tersebut sudah sesuai maka dapat didistribusikan kepada Tim Finance untuk menyusun anggaran suatu pekerjaan. Namun apabila tidak sesuai maka Dokumen Feasibility Study tersebut dikembalikan kepada Tim PPC untuk dilakukan proses analisa ulang berdasarkan analisa dan pertimbangan dari Project Manager.
+Apabila Dokumen Feasibility Study telah disetujui dan Tim Finance sudah membuat anggaran project pekerjaan maka kemudian melaporkan kepada BOD untuk mendapatkan persetujuan mengenai pelaksanaan project tersebut.
+Jika Dokumen Feasibility Study beserta Rencana Anggaran Penyelesaian Proyek disetujui oleh BOD maka untuk eksekusi pekerjaan dapat dilanjutkan. Namun jika tidak disetujui maka pekerjaan tidak dapat dilanjutkan atau harus melakukan revisi terhadap Dokumen Feasibility Study agar sesuai dengan instruksi dari BOD.
+3.6.3. Prosedur Moving Fleet
+Pada saat pekerjaan telah dilakukan, maka pemakaian fleet harus efektif dan optimal. Maka untuk pelaksanaannya diperlukan suatu tahapan atau metode sebagai berikut:
+Tim Operational menginformasikan terkait update pekerjaan di Lapangan dan diperlukan pemindahan alat ke lokasi yang lain kepada Tim PPC.
+Tim PPC membuat Request For Work, Request Moving Fleet, serta Schedule Pekerjan dan Volume Pekerjaan.
+Tim PPC menginformasikan dokumen Request Moving Fleet , Request For Work kepada Tim Operational agar dilakukan review untuk kesesuaian di Lapangan.
+Tim Operational berkoodinasi dengan Tim Project Equipment terkait kebutuhan alat dan jumlah solar yang digunakan.
+Kemudian Dokumen Request Moving Fleet dan Request For Work diserahkan kepada Project Manager untuk dilakukan assessment yang kemudian akan dilaporkan kepada BOD untuk mendapatkan persetujuan.
+Setelah Dokumen disetujui oleh BOD maka Project dapat dilanjutkan.
+3.6.4. Prosedur Pekerjaan baru
+Pada saat pekerjaan baru telah di informasikan kepada Tim PPC maka Tim PPC akan melakukan tahapan assessment pekerjaan tersebut sebagai berikut ;
+Tim PPC akan melakukan tahapan proses Field Engineering terlebih dahulu sebagai berikut:
+Tim PPC agar dilakukan Analisa mengenai pekerjaan tersebut dengan rencana durasi yang ditentukan dalam kontrak.
+Tim PPC melakukan assessment lapangan untuk menganalisa resiko yang akan dihadapi ketika pekerjaan tersebut dilakukan.
+Tim PPC membuat analisa sequence pekerjaan atau yang disebut dengan Work Breakdown Structure untuk setiap item pekerjaan.
+Tim PPC melakukan perhitungan estimasi volume pekerjaan yang akan dikerjakan dan melakukan validasi dan koordinasi dengan Tim Quantity Surveyor.
+Tim PPC setelah mendapatkan volume untuk setiap item pekerjaan, kemudian melakukan perhitungan untuk menentukan jumlah alat yang digunakan, jumlah sumber daya manusia, serta piranti lain yang dibutuhkan untuk mendukung pekerjaan tersebut dengan dasar manajemen resiko, metode serta durasi pekerjaan yang direncanakan.
+Setelah mendapatkan jumlah volume, durasi serta jumlah manpower serta alat yang digunakan maka kemudian dimasukan kedalam program untuk membuat jadwal pelaksanaan suatu proyek pekerjaan.
+Kemudian menyusun dokumen feasibility study atau FS yang berisikan analisa tahapan a - f dan diajukan kepada Project Manager untuk dijadikan pertimbangan.
+Project Manager melakukan verifikasi serta analisa terhadap Dokumen Feasibility Study yang diajukan oleh Tim PPC setelah tahapan Field Engineering dilakukan, apabila dokumen tersebut sudah sesuai maka dapat didistribusikan kepada Tim Finance untuk menyusun anggaran suatu pekerjaan. Namun apabila tidak sesuai maka Dokumen Feasibility Study tersebut dikembalikan kepada Tim PPC untuk dilakukan proses analisa ulang berdasarkan analisa dan pertimbangan dari Project Manager.
+Apabila Dokumen Feasibility Study telah disetujui dan Tim Finance sudah membuat anggaran project pekerjaan maka kemudian melaporkan kepada BOD untuk mendapatkan persetujuan mengenai pelaksanaan project tersebut.
+Jika Dokumen Feasibility Study beserta Rencana Anggaran Project Pekerjaan disetujui oleh BOD maka untuk eksekusi Project dapat dilanjutkan. Namun jika tidak disetujui maka Project tidak dapat dilanjutkan atau harus melakukan revisi terhadap Dokumen Feasibility Study agar sesuai dengan instruksi dari BOD.
+Tim PPC melakukan analisa terkait dampak pekerjaan baru terhadap penyelesaian schedule utama yang telah direncanakan
+Setelah dokumen schedule dan resource sudah selesai oleh TIM PPC, kemudian diinformasikan kepada Project Manager untuk mendapatkan pertimbangan dan verifikasi apakah dapat dilanjutkan untuk pekerjaan tersebut atau tidak dilanjutkan setelah mendapatkan persetujuan dari BOD.
+3.6.5. Prosedur Penambahan alat
+Pada saat pekerjaan tidak menutup kemungkinan untuk dilakukan penambahan alat. Maka untuk pelaksanaannya diperlukan suatu tahapan atau metode sebagai berikut:
+Tim PPC mengajukan Request Permintaan Penambahan Alat dengan Lampiran Dokumen S-Curve, Historical Progres Produksi, Schedule Pelaksanaan, Risk Management , Dokumen Rencana Pembagian Alat Per Zona, Total Sisa Volume Pekerjaan.
+Tim PPC mendistribusikan kepada Tim Operational agar dilakukan assessment oleh Tim Operational terkait Dokumen Request Permintaan Penambahan Alat yang diajukan oleh Tim PPC.
+Setelah dilakukan assessment oleh Tim Operational maka Dokumen Request Permintaan Penambahan Alat beserta lampiran akan di verifikasi oleh Project Manager.
+Kemudian setelah mendapatkan verifikasi dari Project Manager, Request Permintaan Penambahan Alat atau Form Penambahan Alat, Form Asessment Operational diajukan kepada Direktur untuk mendapatkan persetujuan akhir.
+Setelah mendapatkan persetujuan dari Direktur maka untuk Penambahan Alat dapat dilakukan. 
+3.6.6. Prosedur Penyusunan Schedule dan Resource
+Schedule dan Resource merupakan hal paling terpenting yang harus diketahui ketika memperoleh project baru atau terdapat penambahan project. Adapaun tahapan yang dilakukan oleh Tim PPC adalah sebagai berikut :
+Tim PPC melakukan Tahapan Field Engineering dengan tahapan sebagai berikut seperti yang tercantum pada prosedur poin 6.2.
+Setelah tahapan Field Engineering telah dilakukan, maka tahapan selanjutnya Tim PPC membuat Schedule serta Base Line Schedule dengan suatu program berdasarkan hasil dari Dokumen Feasibility Study yang dihasilkan dari tahapan Field Engineering.
+Kemudian dokumen Schedule tersebut dilaporkan oleh Tim PPC kepada Project Manager untuk mendapatkan persetujuan.
+Project Manager selanjutnya berkoordinasi dengan Tim Finance terkait budget dan anggaran project yang kemudian akan dilaporkan kepada BOD untuk mendapatkan persetujuan.
+Apabila disetujui oleh BOD maka Schedule dapat diterapkan maka apabila tidak disetujui maka dapat dilakukan assessment ulang terkait penyesuain schedule dan resource plan yang disiapkan.
+3.6.7. Prosedur Rekonsiliasi Data Divisi Project Site Operational, PPC, Engineering, Administration.
+Rekonsiliasi Data merupakan bagian terpenting dari proses administrasi suatu project agar tersampaikan informasi atau perencanaan yang valid dan dengan error yang minim. 
+Adapun tahapan yang dilakukan oleh Tim PPC adalah sebagai berikut :
+3.6.7a. Prosedur Renkonsiliasi data Progres Report. 
+Berikut ini adalah tahapan  prosedur rekonsiliasi data  progres report sebagai berikut :
+Site Administrasi menyimpan data project dan data data yang diperlukan untuk pembuatan report progres.
+Engineering memproduksi data pendukung untuk pelaksanaan project 
+Site Operational melakukan Collect Data Lapangan berupa data progress dll
+Site Operational bersama dengan Engineering melakukan Opname Lapangan untuk Collect Data Lapangan 
+Tim PPC melakukan komparasi data Lapangan dengan Data Engineering untuk Pembuatan Report Progress
+Site Administrasi menyimpan dan menginformasikan kepada Project Manager terkait Report Progres Pekerjaan.
+BAGIAN 3.7. FLOWCHART
+1. Prosedur Tetap Project Planning & Controlling
+Prosedur Field Engineering
+Prosedur Moving Fleet
+Prosedur Pekerjaan baru
+Prosedur Penambahan alat
+Prosedur Penyusunan Schedule dan Resource
+Prosedur Penyusunan Schedule dan Resource
+BAGIAN 3.8. PENUTUP
+Pembuatan standard operational procedure di departemen Project Planning and Controlling ditujukan untuk memberikan pedoman secara pasti serta tersistematis serta terintegrasi dalam memastikan perencanaan awal sesuai dengan realisasi yang ditentukan. Departement PPC dibentuk sebagai pengendali antara perencanaan, realisasi, dan pertanggungjawaban hasil pekerjaan.
